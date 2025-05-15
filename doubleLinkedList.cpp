@@ -105,9 +105,28 @@ public:
 
                         delete current;
                         cout << "Record with roll number" << "rollNo" << "delated" << endl;
-                    }
-                }
-            }
-        }
-    }
-};
+
+                        void revtraverse()
+                        {
+                            if (START == NULL)
+                        }
+                        cout << "\nList is empety" << endl;
+                        return;
+                        {
+                            Node *currentNode = START;
+                            int i = 0;
+                            while (currentNode != NULL)
+                            {
+                                cout << i + 1 << "." << currentNode->noMhs << "" << endl;
+
+                                currentNode = currentNode->next;
+                                i++;
+                                {
+
+                                    void revtraverse()
+                                    {
+                                        if (START)
+                                    }
+                                }
+                            }
+                        }

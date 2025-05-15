@@ -91,6 +91,13 @@ public:
                             cout << "Recod not found" endl;
                             return;
                         }
+
+                        if (current = START)
+                        {
+                            START = current->next;
+                            if (START = NULL)
+                                START->next = NULL;
+                        }
                     }
                 }
             }

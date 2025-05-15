@@ -98,6 +98,13 @@ public:
                             if (START = NULL)
                                 START->next = NULL;
                         }
+                        else
+                        {
+                            current->prev->next = current->next->prev;
+                        }
+
+                        delete current;
+                        cout << "Record with roll number" << "rollNo" << "delated" << endl;
                     }
                 }
             }

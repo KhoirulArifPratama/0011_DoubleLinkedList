@@ -5,7 +5,7 @@ using namespace std;
 class Node
 {
 public:
-    int nimMhs;
+    int noMhs;
     Node *next;
     Node *prev;
 };
@@ -29,5 +29,7 @@ public:
         cin >> nim;
 
         Node *newNode = new Node();
+
+        newNode->noMhs = nim;
     }
 };
